@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerControler : MonoBehaviour
 {
+    [SerializeField]
+   float playerSpeed = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,9 @@ public class PlayerControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        float horizontaleDir = Input.GetAxis("Horizontal");
+        Vector3 pos = transform.position;
+        pos.x += horizontaleDir * playerSpeed * Time.deltaTime;
+        transform.position = pos;
     }
 }
