@@ -964,6 +964,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2059028946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3789874488323223614, guid: 584437c18110eba4c9c74accc827be62, type: 3}
+  m_PrefabInstance: {fileID: 5287794674352957745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &2059028952
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059028946}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2110270357
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,9 +1203,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2130033384}
   - component: {fileID: 2130033383}
-  - component: {fileID: 2130033387}
   - component: {fileID: 2130033385}
-  - component: {fileID: 2130033386}
+  - component: {fileID: 2130033389}
+  - component: {fileID: 2130033387}
+  - component: {fileID: 2130033388}
   m_Layer: 0
   m_Name: spawner ennemy
   m_TagString: Astero
@@ -1194,7 +1227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3789874488323223614, guid: 584437c18110eba4c9c74accc827be62, type: 3}
-  delai: 1
+  delai: 0.5
 --- !u!4 &2130033384
 Transform:
   m_ObjectHideFlags: 0
@@ -1204,7 +1237,7 @@ Transform:
   m_GameObject: {fileID: 2130033382}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.59, z: 0}
+  m_LocalPosition: {x: 0, y: 7.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1223,19 +1256,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   magnitude: 10
---- !u!114 &2130033386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130033382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c7084e27cd4a084e9bfa92100cf6530, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: Player
 --- !u!61 &2130033387
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1281,6 +1301,46 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!50 &2130033388
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130033382}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &2130033389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130033382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7084e27cd4a084e9bfa92100cf6530, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: 
 --- !u!1001 &5287794674352957745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1339,7 +1399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3789874488323223614, guid: 584437c18110eba4c9c74accc827be62, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3789874488323223614, guid: 584437c18110eba4c9c74accc827be62, type: 3}
       propertyPath: m_TagString
@@ -1348,7 +1408,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3789874488323223614, guid: 584437c18110eba4c9c74accc827be62, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2059028952}
   m_SourcePrefab: {fileID: 100100000, guid: 584437c18110eba4c9c74accc827be62, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

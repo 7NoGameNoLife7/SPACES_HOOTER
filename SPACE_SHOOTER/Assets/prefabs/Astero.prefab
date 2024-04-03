@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3696310982640170137}
   - component: {fileID: 4943528964139388787}
   m_Layer: 0
-  m_Name: ennemy
+  m_Name: Astero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
