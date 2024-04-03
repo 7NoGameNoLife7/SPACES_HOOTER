@@ -5,16 +5,19 @@ using UnityEngine;
 
 public class Ennemy : MonoBehaviour
 {
+    [SerializeField]
+    Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
     {
-
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.down * Time.deltaTime);
+        rb.MovePosition(transform.position + (Vector3.down*Time.deltaTime*10));
+        //  transform.Translate(Vector2.down * Time.deltaTime);
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
