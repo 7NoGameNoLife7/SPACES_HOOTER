@@ -1,0 +1,1249 @@
+fileFormatVersion: 2
+guid: ccebcb42b1e0e2e4f8932cf630852291
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1735
+        width: 204
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e09f0e8f0c590418397c2414385fb0
+      internalID: -925763437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1735
+        width: 218
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0352b81a88ca16348b5e060718b4a098
+      internalID: 200907809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1735
+        width: 233
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe75203bac58834ba1ab0be8460d4f7
+      internalID: 2059417855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1766
+        width: 176
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de802acfb3bbe404eab47654ff952771
+      internalID: -696990549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1767
+        width: 203
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75c0d5638df19a49b563b07aef9d99d
+      internalID: -992987240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 1766
+        width: 217
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e801f40956c614883675f0e5b61a2a
+      internalID: -1969004942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1773
+        width: 126
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfd7371f468c8d40ad09580a09c5a93
+      internalID: -1980554659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 1762
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db27ff9ce20d88a49b20743e0c209dbe
+      internalID: 1154284426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1517
+        width: 207
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b5fe0ed70633e4c8c8c5627e8ecdf7
+      internalID: -1007700347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1518
+        width: 218
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a0b4645a9088f45b2f617bfee6c9ad
+      internalID: 1753491552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1518
+        width: 230
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9282e39ee2b16443b2d85e4848caff3
+      internalID: 1442933115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1546
+        width: 171
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4aaaeb16be149844aa9d6abb07db724
+      internalID: -1471172858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1544
+        width: 201
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c319796654716143886993ee51523b8
+      internalID: 1362515643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1545
+        width: 218
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37bd950be8fa4443b3ecdebe90fa4bb
+      internalID: 308142395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1559
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fd0c3feba5ee54490327fd0bc09794
+      internalID: 1300970081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 1559
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd60a0e4c33ab174ebd7395e6e659db0
+      internalID: -1510860395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1296
+        width: 205
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6d01d813164b548889a22992c53831
+      internalID: 1612985847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1296
+        width: 217
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d88d1db808e784392d8b5d598103c2
+      internalID: -966172010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1297
+        width: 227
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cd83c659738084cbaa5f18b4bc0797
+      internalID: -1118282330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1311
+        width: 172
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea643e3818c87345a026a61f6e8f2b7
+      internalID: -844494255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1311
+        width: 202
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00313a896862a94f82e8a78a4de5082
+      internalID: 2140578090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1311
+        width: 219
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb057ee986c4da64e902a358d92c72e6
+      internalID: -602809044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1334
+        width: 123
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949ec45d6c2ef2047bc2442bb0aeb73d
+      internalID: 1393794795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 1330
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fa668db7841dd4d9691d67015ad68c
+      internalID: -1241398741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1049
+        width: 60
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3473fe208aa4957469d7992f378ee1b8
+      internalID: 2137631714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1042
+        width: 26
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b8d3af371326d4daddbdfa7e352ca9
+      internalID: 1592660647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1114
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b674d4b781e29478b434d7024b6efe
+      internalID: -2098598786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1126
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202187e466b2f0b43bfbb7e25d677254
+      internalID: 1141096102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 979
+        width: 166
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d095c2fd70f844983cfafbae0e0408
+      internalID: -1218534262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 982
+        width: 139
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c56ec273aca7545bfbbe4b691b923b
+      internalID: 1496789640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 959
+        width: 173
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a8cf3c460bb6c4cae0fb62eaf5bc8f
+      internalID: 1698099552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1059
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d35f62082fc2624d93166982a9a641d
+      internalID: 573287316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1054
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cab13eb0bfa8149acbd41fab0cb3bf
+      internalID: 1413388982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1067
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d413dc5e00a24984e95a67af5a111287
+      internalID: -1118679830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1041
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32060a635f3a2a4aad040c961c13e78
+      internalID: 2058297037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1086
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4ef0917f8ea584bae6c81061958535
+      internalID: 1108842413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1042
+        width: 24
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e485fb72839a06242ae1f64cdb4ad15e
+      internalID: 1234206329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1058
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34a5a7eb808bd647a49afe031d40b00
+      internalID: -591709830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1061
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a673980f9d91564280766e5fc74bbc3
+      internalID: -1881905336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 693
+        width: 168
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac98f0ab17a3ecf48902349d50067340
+      internalID: -808528698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 694
+        width: 187
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0586396e7e57934a879b34fb90c7c22
+      internalID: 248285008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 689
+        width: 197
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e6729579489c1408eeaac00a0edcdc
+      internalID: -431578246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 701
+        width: 187
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569e8029ac9a7ba40a9f3f7c91201519
+      internalID: 193399962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 705
+        width: 177
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d71463b6d3f2f84ca62631307c1db86
+      internalID: 750156733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 705
+        width: 158
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee532cbeef7b83847a892cc4ad2eda94
+      internalID: 2145939193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 374
+        width: 157
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90be53de131f1ba40939674514d568ac
+      internalID: -1419266219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 373
+        width: 177
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a2985f16f0d784491487699f2a313d
+      internalID: -547137739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 370
+        width: 187
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82cbc2cdb6741747a1d69d1a8ee8cca
+      internalID: -135140787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 371
+        width: 163
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372b08f59e6774647a21c1a02e927277
+      internalID: -119465361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 372
+        width: 179
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe7148ba92fc5c4e9cc7f65780ee6cf
+      internalID: -2043442639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Shooter_Sprite_Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 369
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04435597a26b83548977d3300abf30b0
+      internalID: -33744366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Space_Shooter_Sprite_Sheet_0: -925763437
+      Space_Shooter_Sprite_Sheet_1: 200907809
+      Space_Shooter_Sprite_Sheet_10: 1442933115
+      Space_Shooter_Sprite_Sheet_11: -1471172858
+      Space_Shooter_Sprite_Sheet_12: 1362515643
+      Space_Shooter_Sprite_Sheet_13: 308142395
+      Space_Shooter_Sprite_Sheet_14: 1300970081
+      Space_Shooter_Sprite_Sheet_15: -1510860395
+      Space_Shooter_Sprite_Sheet_16: 1612985847
+      Space_Shooter_Sprite_Sheet_17: -966172010
+      Space_Shooter_Sprite_Sheet_18: -1118282330
+      Space_Shooter_Sprite_Sheet_19: -844494255
+      Space_Shooter_Sprite_Sheet_2: 2059417855
+      Space_Shooter_Sprite_Sheet_20: 2140578090
+      Space_Shooter_Sprite_Sheet_21: -602809044
+      Space_Shooter_Sprite_Sheet_22: 1393794795
+      Space_Shooter_Sprite_Sheet_23: -1241398741
+      Space_Shooter_Sprite_Sheet_24: 2137631714
+      Space_Shooter_Sprite_Sheet_25: 1592660647
+      Space_Shooter_Sprite_Sheet_26: -2098598786
+      Space_Shooter_Sprite_Sheet_27: 1141096102
+      Space_Shooter_Sprite_Sheet_28: -1218534262
+      Space_Shooter_Sprite_Sheet_29: 1496789640
+      Space_Shooter_Sprite_Sheet_3: -696990549
+      Space_Shooter_Sprite_Sheet_30: 1698099552
+      Space_Shooter_Sprite_Sheet_31: 573287316
+      Space_Shooter_Sprite_Sheet_32: 1413388982
+      Space_Shooter_Sprite_Sheet_33: -1118679830
+      Space_Shooter_Sprite_Sheet_34: 2058297037
+      Space_Shooter_Sprite_Sheet_35: 1108842413
+      Space_Shooter_Sprite_Sheet_36: 1234206329
+      Space_Shooter_Sprite_Sheet_37: -591709830
+      Space_Shooter_Sprite_Sheet_38: -1881905336
+      Space_Shooter_Sprite_Sheet_39: -808528698
+      Space_Shooter_Sprite_Sheet_4: -992987240
+      Space_Shooter_Sprite_Sheet_40: 248285008
+      Space_Shooter_Sprite_Sheet_41: -431578246
+      Space_Shooter_Sprite_Sheet_42: 193399962
+      Space_Shooter_Sprite_Sheet_43: 750156733
+      Space_Shooter_Sprite_Sheet_44: 2145939193
+      Space_Shooter_Sprite_Sheet_45: -1419266219
+      Space_Shooter_Sprite_Sheet_46: -547137739
+      Space_Shooter_Sprite_Sheet_47: -135140787
+      Space_Shooter_Sprite_Sheet_48: -119465361
+      Space_Shooter_Sprite_Sheet_49: -2043442639
+      Space_Shooter_Sprite_Sheet_5: -1969004942
+      Space_Shooter_Sprite_Sheet_50: -33744366
+      Space_Shooter_Sprite_Sheet_6: -1980554659
+      Space_Shooter_Sprite_Sheet_7: 1154284426
+      Space_Shooter_Sprite_Sheet_8: -1007700347
+      Space_Shooter_Sprite_Sheet_9: 1753491552
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
