@@ -23,7 +23,7 @@ public class Colission : MonoBehaviour
             Destroy(this.gameObject);
             Destroy(other.gameObject);
         }
-        if (other.gameObject.tag == "Player")
+        else if (other.gameObject.tag == "Player")
         {
             Debug.Log("Ennemi entre en collision avec Player");
             

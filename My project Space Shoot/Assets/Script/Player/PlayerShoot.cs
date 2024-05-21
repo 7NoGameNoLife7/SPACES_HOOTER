@@ -19,7 +19,7 @@ public class PlayerShoot : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("On Tire des Missile ");
-            Instantiate(missile, spawnPoint.transform.position, Quaternion.identity);
+            Instantiate(missile, spawnPoint.transform.position, Quaternion.identity, transform);
         }
     }
 }
